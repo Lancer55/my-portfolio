@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 5.652rem;
+    margin: 50px auto 35px auto;
+    font-family: 'Sacramento', cursive;
+    color: #3e1cd6;
+    line-height: double;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #3e1cd6;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #87dae4;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding-top: 62px;
+    background-color: rgb(224, 248, 252);
+}
+
+.bottom-container {
+    background-color: #87dae4;
+    padding: 50px;
+}
+
+.profile {
+    width: 80%;
+    margin: 0 auto 100px auto;
+    line-height: double;
+}
+
+.skill-row {
+    width: 55%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: double;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.image {
+    border-radius: 100px;
+    width: 20%;
+}
+
+.image2 {
+    border-radius: 500px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.image3 {
+    border-radius: 500px;
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+a:link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+#death {
+    color: red;
+}
+
+#disgrace {
+    color: yellow;
+}
+
+.contact-me {
+    padding-bottom: 50px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(70, 68, 68);
+    border-width: 5px;
+    width: 10%;
+}
+
+#copy-right {
+    font-size: 62%;
+}
+
+#btn-gap {
+    padding-bottom: 50px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 1px 1px 11px #0a407d;
+    -moz-box-shadow: 1px 1px 11px #0a407d;
+    box-shadow: 1px 1px 11px #0a407d;
+    font-family: 'Montserrat', sans-serif;
+    color: #0c3094;
+    font-size: 20px;
+    background: #87dae4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #2b98e0;
+    text-decoration: none;
+}
